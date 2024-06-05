@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.root{
+    font-size: 16px;
+}
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background: #d2d2c1 url("../img/fundo.png");
+}
+
+header{
+    width: 100%;
+    max-width: 900px;
+}
+header img{
+    width: 100%;
+}
+header ul{
+    background-color: #c5c5b2;
+    padding: 30px 0;
+    margin: 1px;
+}
+header ul li{
+    height: min-content;
+    display: inline;
+    padding: 0 10px;
+    border-right: 2px solid rgb(73 86 103);
+    
+}
+header ul li:last-child{
+    border: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main{
+    box-sizing: border-box;
+    max-width: 900px;
+    background-color: #e8e8d9;
+    padding: 20px 10px;
+}
+h1{
+    margin: 0;
+    color: #828271;
+
+}
+
+footer{
+    max-width: 900px;
+}
+footer p{
+    font-weight: 700;
+    text-align: center;
+}
+
+div{
+    width: 75%;
+    padding: 10px;
+    background-color: #c5c5b2;
+}
+div img{
+    width: 100%;
+}
