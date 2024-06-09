@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Cidade - Seu Site de Notícias</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+</head>
+<body>
+    <div id="duasColunas" class="container">
+        <header>
+            <img src="./img/logo.png" alt="Logo do site">
+            <ul role="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="brasil.html">Brasil</a></li>
+                <li><a href="internacional.html">Internacional</a></li>
+                <li><a href="economia.html">Economia</a></li>
+                <li><a  id="selected" href="saude.html">Saúde</a></li>
+                <li><a href="ciencia.html">Ciência</a></li>
+                <li class="last"><a href="fotos.html">Fotos</a></li>
+            </ul>
+        </header>
+
+        <!--Conteudo principal-->
+        <main>
+            <!--Noticia destacada-->
+            <div class="caixa">
+                <h2>O aumento de pandemias</h2>
+                <div class="caixaConteudo">
+                    <img src="img/mundo.jpg" alt="fig 1. Representação de uma cidade" width="100%">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione enim deleniti eaque fugiat dicta sit perspiciatis facilis tempore impedit est? Optio eveniet pariatur ducimus nisi recusandae praesentium possimus deleniti? Alias?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugiat vel illum corrupti, cumque, porro temporibus aliquid rem dolorem architecto, dolore quas saepe totam fuga omnis numquam laboriosam quos molestiae?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur officia corporis illo, dignissimos aperiam voluptas doloribus quis soluta expedita totam voluptatum? Similique necessitatibus corporis accusamus omnis odio amet, ad ipsam!</p>
+
+                    <h3>Consequencias do Covid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ea impedit porro accusantium harum! Pariatur optio libero ipsam eligendi nam, facere cum quis possimus saepe autem, perspiciatis voluptatem assumenda necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores in accusantium ipsa beatae fuga deserunt sapiente, harum doloribus quos porro perferendis architecto perspiciatis reiciendis aliquam assumenda sit officiis dolore nesciunt.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum tenetur repellat neque, fuga sit quo ullam, delectus maiores expedita blanditiis odio nobis, nihil mollitia eaque atque accusamus saepe rerum corporis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit ad repudiandae maxime officiis, eaque atque autem perspiciatis porro rerum voluptatum quae cupiditate aliquid voluptate voluptates eveniet et aut! Quae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum explicabo architecto velit, molestias, praesentium laboriosam autem asperiores assumenda nobis sed ab at. Impedit provident perspiciatis eaque cumque vel necessitatibus tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus veniam, labore quia aspernatur eaque consectetur, perferendis inventore placeat fuga obcaecati quidem veritatis dignissimos ipsam consequatur odio nesciunt quaerat accusamus.</p>
+                </div>
+            </div><!--Fim da Noticia destacada-->
+
+            <div class="caixa">
+                <h2>Veja Também: Entrevista com Felipe Silva</h2>
+                <div class="caixaConteudo">
+                    <img src="img/doutor.jpg" alt="fig 4. Representação de um medico">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, harum cupiditate. Deleniti quibusdam et aperiam eaque vitae, quae accusamus eos reprehenderit ullam fugit minima sapiente mollitia dolore corrupti repellendus nulla.</p>
+                    <a href="Entrevistas/FelipeSilva.html">Leia Mais</a>
+                </div>
+            </div>
+
+            <!--Destaques do mundo-->
+            <div class="caixa">
+                <h2>Mundo</h2>
+                <div class="caixaConteudo">
+                    <ul id="listaNoticia">
+                        <li>
+                            <a href="">
+                                <img src="img/taxi.jpg" alt="fig 3. exemplo de tecnologias" width="80">
+                                <h3>Nova Legislação</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/mundo.jpg" alt="fig 3. exemplo de tecnologias" width="80">
+                                <h3>Crise Europeia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/mundo.jpg" alt="fig 3. exemplo de tecnologias" width="80">
+                                <h3>Guerra na Siria</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/mundo.jpg" alt="fig 3. exemplo de tecnologias" width="80">
+                                <h3>Russia aprova lei</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--FIm dos destaques do mundo-->
+
+        </main>
+
+        <!--Coluna lateral-->
+        <aside>
+            <!--Inicio do menu de entrevistas-->
+            <div class="caixa">
+                <h2>Entrevistas</h2>
+                <div class="caixaConteudo">
+                    <ul>
+                        <li><a href="">José Almeida</a></li>
+                        <li><a href="Entrevistas/FelipeSilva.html">Felipe Silva</a></li>
+                        <li><a href="">Renato Rodrigues</a></li>
+                        <li><a href="">Abelardo Silveira</a></li>
+                        <li><a href="">André Carlos</a></li>
+                        <li><a href="">Márcio Mello</a></li>
+                        <li><a href="">João Pedro</a></li>
+                        <li><a href="">Fernando Weiss</a></li>
+                    </ul>
+                </div>
+            </div><!--Final do menu de entrevistas-->
+
+            <!--Incio do formulario-->
+            <div class="caixa">
+                <h2>News</h2>
+                <div class="caixaConteudo">
+                    <form>
+                        <label>Email:
+                            <input type="text" placeholder="E-mail" name="email" id="email">
+                        </label>
+
+                        <button type="submit">Cadastrar</button>
+                    </form>
+                </div>
+            </div> <!--Final do formulario-->
+        </aside>
+    </div>
+    <footer>
+        &COPY;Copyright 2000 - 2018 Notícias Cidade
+    </footer>
+</body>
+</html>
