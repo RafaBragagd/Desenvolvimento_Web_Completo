@@ -1,0 +1,356 @@
+/*Configurações Gerais
+-----------------------*/
+
+body{
+  background: #f4f2ec url(../img/fundo.png) repeat-x;
+  padding: 10px;
+  width: 100vw;
+  overflow-x: hidden;
+  font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+#container{
+  width: 90%;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mobileR1, .mobileR2{
+  display: none;
+}
+/*Textuais
+----------*/
+a{
+  text-decoration: none;
+  color: #a87014;
+  padding: 0.5% 1%;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+a:hover{
+  color: #116611;
+  border-bottom: 1px solid #116611;
+}
+p{
+  text-align: justify;
+}
+h1{
+  margin: 0;
+}
+h3{
+  color: #227115;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+h4{
+  color: #86521a;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+
+/* Formularios
+---------------*/
+input{
+  height: 20px;
+  background: #fff;
+  font-size: 1em;
+  width: 125px;
+  border: 1px solid #ada484;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+button{
+  border: none;
+  background: #9b9271;
+  color: #fff;
+  width: 100%;
+  margin-top: 5px;
+  height: 40px;
+  font-size: 1.2em;
+}
+button:hover{
+  background-color: #5d5845;
+}
+
+/*Configurações de topo
+-----------------------*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+header h1{
+  background: url("../img/logo.png") no-repeat left center;
+  width: 248px;
+  height: 100%;
+}
+header h1 a{
+  display: block;
+  opacity: 0;
+}
+
+header nav{
+  flex-grow: .8;
+  max-width: 650px;
+  margin-right: 2.5%;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+header nav a{
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: 2%;
+}
+
+/*Configuração do main
+----------------------*/
+main{
+  display: flex;
+  justify-content: space-between;
+}
+main #main{
+  box-sizing: border-box;
+  margin-right: 2%;
+  width: 67%;
+}
+main #main #entrada{
+  width: 100%;
+}
+main #museuInfo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main #museuInfo article{
+  box-sizing: border-box;
+  padding: 15px;
+  width: 50%;
+  min-height: 300px;
+  margin-bottom: 15px;
+}
+main article iframe{
+  width: 100%;
+  height: 90%;
+}
+main #exposicoes ul{
+  list-style: disc;
+  padding-left: 20px;
+}
+main a{
+  line-height: 2em;
+  padding: 5px;
+  font-size: 1em;
+}
+
+
+/*Configuração do aside
+-----------------------*/
+main aside{
+  background: #ece6de;
+  width: 33%;
+}
+
+main aside #depoimento{
+  width: 100%;
+}
+
+#visita{
+  background: #ccc7b4;
+  padding: 10px 27px 27px 27px;
+  margin-top: 10px;
+}
+#visita form{
+  display: flex;
+  flex-wrap: wrap;
+}
+#visita label{
+  display: inline-block;
+}
+#visita #qtd{
+  width: 30px;
+}
+
+
+#galeria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+}
+#galeria h4{
+  flex-basis: 100%;
+}
+#galeria a{
+  display: grid;
+  place-items: center;
+
+  background: url("../img/fundo-foto.png") no-repeat center;
+  background-size: cover;
+  width: 50%;
+  aspect-ratio: 1 / 1.1;
+  max-width: 155px;
+  min-width: 100px;
+}
+#galeria a:hover{
+  border: none;
+  transform: rotateZ(10deg);
+  transition: transform .3s;
+}
+#galeria a img{
+  
+  display: block;
+  width: 80%;
+  margin: auto auto;
+}
+
+/* Configurações de rodapé
+---------------------------*/
+footer{
+  margin-top: 20px;
+  padding: 20px 0 30px 0;
+  text-align: center;
+  background: url(../img/fundo-rodape.png) no-repeat center top;
+}
+footer>p{
+  font-size: .8rem;
+  text-align: center;
+}
+
+
+@media (max-width: 1260px){
+  #galeria a{
+    width: 40%;
+  }
+}
+
+@media (max-width: 880px){
+  /*Configurações Gerais
+  -----------------------*/
+  .mobileR1{
+    display: initial;
+  }
+  /*Configurações do header
+  -------------------------*/
+  header nav{
+    margin: 0;
+  }
+  header nav ul{
+    position: absolute;
+    box-sizing: border-box;
+    background: #9b9271;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .3s;
+    padding: 2vw;
+    transform-origin: right;
+    transform: scaleX(0%);
+
+  }
+  header nav ul.open{
+    transform: scaleX(100%);
+    opacity: 1;
+  }
+  nav ul li{
+    text-align: center;
+    color: #a87014;
+    font-size: 3em;
+    line-height: 1em;
+    border-bottom: 1px solid #4f350a;
+  }
+  nav ul a{
+    font-size: .6em;
+    font-weight: 600;
+  }
+  nav ul #closeM{
+    text-align: left;
+    border: none
+  }
+  nav ul #closeM span{
+    display: block;
+    border: 2px solid #a87014;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 900;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 5px;
+  }
+  #menuB{
+    background: transparent url(../img/MenuM.svg) no-repeat center;
+    background-size: cover;
+    width: 65px;
+    float: right;
+  }
+
+  /*Configurações do main
+  ---------------------------*/
+  main #museuInfo article{
+    width: 100%;
+  }
+
+  /*Configurações do aside
+  ---------------------------*/
+  #galeria a{
+    width: 80%;
+  }
+}
+
+@media (max-width: 880px){
+  /*Configurações Gerais
+  -----------------------*/
+  .mobileR2{
+    display: initial;
+  }
+
+  body{
+    padding: 0;
+  }
+  #container{
+    width: 95%;
+  }
+
+  /*Configurações de Topo
+  -------------------------*/
+  header h1{
+    background: url("../img/logo-Mobile.png") no-repeat left center;
+  }
+
+  /*Configurações do main
+  -----------------------*/
+  main{
+    flex-direction: column;
+  }
+  main #main{
+    margin-right: 0;
+    width: 100%;
+  }
+
+  /*Configurações do aside
+  -------------------------*/
+  main aside{
+    width: 100%;
+  }
+
+  /*Configurações do footer
+  -------------------------*/
+  footer p a{
+    font-size: .675rem;
+  }
+}
