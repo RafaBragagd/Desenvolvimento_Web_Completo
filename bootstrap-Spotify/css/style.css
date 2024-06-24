@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+/*Configurações Gerais*/
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+body{
+    width: 100vw;
+    background: url(../img/capa.png), 
+                url(../img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+header{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+h3{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #6207e3;
+}
+h4{
+    display: block;
+    font-size: 1.15rem;
+    color: #6207e3;
+    font-weight: 700;
+}
+h5{
+    display: block;
+    font-size: 1rem;
+    color: #737373;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+/*Configurações Do cabeçalho*/
+header .navbar-dark .navbar-nav.first-nav .nav-link{
+    color: #fff;
+}
+header .navbar-dark .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+header .navbar-dark .navbar-nav .divisor{
+    position: relative;
+    width: 130%;
+    height: 1px;
+    left: -15%;
+    background-color: #ffffff7a;
+}
+
+/*COnfigurações main - Carrossel*/
+main{
+    width: 100vw;
+    overflow: hidden;
+}
+main #carousel-principal .button-group button{
+    border-width: 2px;
+    padding: .3rem .8rem;
+    font-size: .8rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+main #carousel-principal .button-group button.btn-purple{
+    background-color: #7c26f8;
+    color: #fff;
+}
+main #carousel-principal .button-group button.btn-purple:hover{
+    background-color: #6207e3;
+}
+
+#carousel-principal{
+    width: 100%;
+    height: 50vh;
+}
+#carousel-principal .carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-indicators li {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.carousel-indicators li span{
+    width: 180%;
+    height: 180%;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+}
+.carousel-indicators .active{
+    transform: scale(1.1);
+}
+.carousel-indicators .active span{
+    border: 2px solid #fff;
+}
+
+.arrows{
+    height: 2rem;
+    width: auto;
+}
+.carousel-control{
+    opacity: .75;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
+
+main #saibaMais{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    color: #9bf0e1;
+    letter-spacing: .1em;
+    font-weight: 700;
+    font-size: .75em;
+    margin-top: 2em;
+    padding: 2px;
+    border-bottom: 2px solid #9bf0e1;
+}
+main #saibaMais:hover{
+    color: #6dccba;
+    border-color: #6dccba;
+    text-decoration: none;
+}
+
+#oqueS{
+    background: #fff;
+    overflow: hidden;
+}
+#albuns{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+#infoOque{
+    background: #ffffffcc;
+}
+
+.text-light-blue{
+    color: #a1ecde !important;
+}
+#smarphones{
+    transform: rotateZ(25deg);
+}
+#smarphones img{
+    height: auto;
+    width: 100%;
+}
+
+footer{
+    width: 100vw;
+    position: relative;
+    background: #000;
+    padding-top: 15px;
+    z-index: 1;
+}
+
+
+
+@media (min-width: 576px) { 
+    main #carousel-principal .button-group button{
+        padding: .375rem 2.5rem;
+        font-size: .875rem;
+    }
+    main #saibaMais{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    #carousel-principal{
+        width: 100%;
+        height: 55vh;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    header{
+        background: rgba(0, 0, 0, .6);
+    }
+    header .navbar-dark .navbar-nav .divisor{
+        position: static;
+        height: auto;
+        width: 1px;
+        background-color: #fff;
+        margin: 12px 15px;
+    }
+    h2{
+        font-size: 4rem;
+        margin-bottom: .85em;
+    }
+    #carousel-principal{
+        width: 100%;
+        height: 60vh;
+    }
+    .arrows{
+        height: 3.5rem;
+    }
+    footer{
+        padding-top: 100px;
+    }
+    footer .footerDesloc{
+        position: relative;
+        top: -25px;
+    }
+    #albuns{
+        position: static;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    h2{
+        font-size: 5.5rem;
+        margin-bottom: .5em;
+    }
+    #carousel-principal{
+        width: 100%;
+        height: 75vh;
+    }
+ }
+
+
+@media (min-width: 1200px) {
+    h2{
+        font-size: 6.5rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    #carousel-principal{
+        width: 100%;
+        height: 85vh;
+    }
+    .px-xl-6{
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+    }
+}
