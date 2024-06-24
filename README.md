@@ -69,7 +69,36 @@ Projeto abordando os conceitos avançados de CSS3.
 <img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/CSS3Avancado-ChaleHotel/showcase/ChaleHotel.gif" alt="Design da pagina do Unes Universidade" width=800px>
 
 #### Demonstração da responsividade do projeto Chalé Hotel
-<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/CSS3Avancado-ChaleHotel/showcase/ChaleHotel-Responsividade.gif" alt="Design da pagina do Unes Universidade" width=800px>
+<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/CSS3Avancado-ChaleHotel/showcase/ChaleHotel-Responsividade.gif" alt="Responsividade da pagina do Unes Universidade" width=800px>
+
+--- 
+
+### [Projeto 6: HTML e CSS - Recursos Especiais - Museu Nacional](https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/tree/main/HtmlCssRecursosEspeciais-MuseuNacional)
+Projeto abordando recursos especias como flexbox.
+#### Demonstração do design do projeto Museu Nacional
+<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/HtmlCssRecursosEspeciais-MuseuNacional/showcase/MuseuNacional.gif" alt="Design da pagina do Museu Nacional" width=800px>
+
+#### Demonstração da responsividade do projeto Museu Nacional 
+
+<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/HtmlCssRecursosEspeciais-MuseuNacional/showcase/MuseuNacional-Responsividade.gif" alt="Responsividade da pagina do Museu Nacional" width=800px>
+
+--- 
+
+### [Projeto 7: Bootstrap - Finans](https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/tree/main/bootstrap-Finans)
+Projeto abordando recursos basicos do bootstrap.
+#### Demonstração do design do projeto Finans
+<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/bootstrap-Finans/showcase/Finans.gif" alt="Design da pagina do Finans" width=800px>
+
+--- 
+
+### [Projeto 8: Bootstrap - Spotify](https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/tree/main/bootstrap-Spotify)
+Clone do site do spotify abordando recursos avançados do bootstrap
+#### Demonstração do design do projeto Spotify
+<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/bootstrap-Spotify/showcase/Clone-Spotify.gif" alt="Design da pagina do Spotify" width=800px>
+
+#### Demonstração da responsividade do projeto Spotify
+
+<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/bootstrap-Spotify/showcase/Clone-Spotify-Responsive.gif" alt="Responsividade da pagina do spotify" width=800px>
 
 --- 
 
