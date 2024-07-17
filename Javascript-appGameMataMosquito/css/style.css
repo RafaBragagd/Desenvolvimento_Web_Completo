@@ -1,0 +1,64 @@
+html{
+    cursor: url(../img/mata_mosca.png) 30 30, auto;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Configurações das moscas*/
+.mosca{
+    position: absolute;
+}
+.mosca1{
+    width: 50px;
+    height: 50px;
+}
+.mosca2{
+    width: 60px;
+    height: 60px;
+}
+.mosca3{
+    width: 80px;
+    height: 80px;
+}
+.mosca4{
+    width: 65px;
+    height: 65px;
+}
+.mosca5{
+    width: 75px;
+    height: 75px;
+}
+.mosca6{
+    width: 90px;
+    height: 90px;
+}
+.mosca7{
+    width: 85px;
+    height: 85px;
+}
+
+.lado1{
+    transform: scaleX(-1);
+}
+
+/*Configurações do HUD*/
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+.vidas {
+    float: left;
+}
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
