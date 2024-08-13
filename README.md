@@ -102,6 +102,19 @@ Clone do site do spotify abordando recursos avançados do bootstrap
 
 --- 
 
+### [Projeto 9: Javascript - App Calculadora](https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/tree/main/javascript-appCalculadora)
+Projeto abordando recursos basicos do javascript.
+#### Demonstração do design do app Calculadora
+<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/javascript-appCalculadora/showcase/appCalculadora.gif" alt="Design da calculadora" width=800px>
+
+--- 
+
+### [Projeto 10: Javascript - App Mata Mosca](https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/tree/main/Javascript-appGameMataMosquito)
+Projeto abordando recursos avançados do javascript.
+#### Demonstração do design do jogo Mata Mosca
+<img src="https://github.com/RafaBragagd/Desenvolvimento_Web_Completo/blob/main/Javascript-appGameMataMosquito/showcase/MataMosca.gif" alt="Design da jogo mata mosca" width=800px>
+
+--- 
 
 ## Links Relevantes
 
